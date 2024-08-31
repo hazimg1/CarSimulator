@@ -1,4 +1,4 @@
-﻿namespace RadioControlledCarSimulator.Commands.Interfaces;
+﻿namespace RadioControlledCarSimulator.Interfaces;
 
 /// <summary>
 /// Represents a command that can be executed.
