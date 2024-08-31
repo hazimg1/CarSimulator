@@ -17,7 +17,7 @@ public class Program
     /// The main method that starts the application.
     /// </summary>
     /// <param name="args">The command-line arguments.</param>
-    public static async Task Main(string[] args)
+    public static void Main(string[] args)
     {
         var host = Host.CreateDefaultBuilder(args)
                  .ConfigureServices((context, services) =>
