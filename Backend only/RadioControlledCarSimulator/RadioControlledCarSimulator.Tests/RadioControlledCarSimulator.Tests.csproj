@@ -27,6 +27,8 @@
 
   <ItemGroup>
     <Folder Include="Events\" />
+    <Folder Include="Helpers\" />
+    <Folder Include="Commands\" />
   </ItemGroup>
 
 </Project>
