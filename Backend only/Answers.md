@@ -1,6 +1,6 @@
 
 # How long time did you end up spending on this coding test?
- I ended up spending approximately 9 to 10 hours on this coding test.
+ I ended up spending approximately about 7 hours on this coding test.
 
 # Explain why you chose the code structure you used in your solution?
 
