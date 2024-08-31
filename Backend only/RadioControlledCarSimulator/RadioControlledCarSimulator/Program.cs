@@ -17,16 +17,20 @@ public class Program
     /// The main method that starts the application.
     /// </summary>
     /// <param name="args">The command-line arguments.</param>
-    public static void Main(string[] args)
+    public static async Task Main(string[] args)
     {
         var host = Host.CreateDefaultBuilder(args)
                  .ConfigureServices((context, services) =>
                  {
                      services.AddSingleton<IIOHelper, IOHelper>()
                              .AddScoped<ICommandProcessor, CommandProcessor>()
+                             .AddSingleton<Simulator>()
                              .AddSingleton<ICarEvent, CarEvent>()
                              .AddSingleton<IValidator, Validator>();
                  })
                  .Build();
+
+        var simulator = host.Services.GetRequiredService<Simulator>();
+        await simulator.RunAsync();
     }
 }

@@ -38,7 +38,7 @@ public class IOHelper : IIOHelper
     public void CarProgressOutputResult(bool success, Point location, Moving moving, Directions direction) =>
        Console.WriteLine(success
            ? $"Car is moved {moving} to position: ({location.X}, {location.Y}) facing {direction}"
-           : "Unsuccessful! The car crashed into a wall.");
+           : "The car cannot continue because it has crashed into a wall.");
 
     public void CarProgressOutputResult(Moving moving, Directions direction) => Console.WriteLine($"Car is turned {moving} toward {direction}");
 
@@ -46,7 +46,7 @@ public class IOHelper : IIOHelper
     public void OutputResult(bool success, Car car) =>
         Console.WriteLine(success
             ? $"Success! Final position: ({car.X}, {car.Y}) facing {car.Direction}"
-            : "Unsuccessful! The car crashed into a wall.");
+            : "Unsuccessful! The car has crashed.");
 
     public async IAsyncEnumerable<ICommand> GetActionCommandsAsync(Car car)
     {
