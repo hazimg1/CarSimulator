@@ -1,6 +1,6 @@
 ﻿using RadioControlledCarSimulator.Models;
 
-namespace RadioControlledCarSimulator.Commands.Interfaces;
+namespace RadioControlledCarSimulator.Interfaces;
 
 /// <summary>
 /// Validates input data for the simulator.

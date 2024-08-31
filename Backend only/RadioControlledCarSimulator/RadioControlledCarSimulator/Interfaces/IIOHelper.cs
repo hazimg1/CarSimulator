@@ -1,7 +1,7 @@
 ﻿using RadioControlledCarSimulator.Models;
 using System.Drawing;
 
-namespace RadioControlledCarSimulator.Commands.Interfaces;
+namespace RadioControlledCarSimulator.Interfaces;
 
 /// <summary>
 /// Defines methods for input and output operations.

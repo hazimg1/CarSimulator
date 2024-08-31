@@ -1,4 +1,4 @@
-﻿using RadioControlledCarSimulator.Commands.Interfaces;
+﻿using RadioControlledCarSimulator.Interfaces;
 
 namespace RadioControlledCarSimulator.Events;
 

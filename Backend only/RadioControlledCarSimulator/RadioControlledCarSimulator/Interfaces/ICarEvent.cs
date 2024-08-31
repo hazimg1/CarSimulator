@@ -1,4 +1,4 @@
-﻿namespace RadioControlledCarSimulator.Commands.Interfaces;
+﻿namespace RadioControlledCarSimulator.Interfaces;
 
 /// <summary>
 /// Defines methods for handling car events.

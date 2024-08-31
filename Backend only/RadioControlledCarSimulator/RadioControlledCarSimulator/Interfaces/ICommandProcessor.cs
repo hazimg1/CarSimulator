@@ -1,4 +1,4 @@
-﻿namespace RadioControlledCarSimulator.Commands.Interfaces;
+﻿namespace RadioControlledCarSimulator.Interfaces;
 
 /// <summary>
 /// Processes commands asynchronously.
